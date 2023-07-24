@@ -1,0 +1,13 @@
+[package]
+name = "rs-bluetooth-test"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+btleplug = "0.10.5"
+macaddr = "1.0.1"
+ruuvi-sensor-protocol = "0.6.1"
+futures = "0.3.28"
+tokio = { version = "1.28.2", features = ["full"] }
